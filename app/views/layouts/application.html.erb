@@ -1,16 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>MyPortfolio</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <meta name="Description" content="My Online Portfolio">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  <link rel="manifest" href="/manifest.json" />
-<meta name="apple-mobile-web-app-capable" content="yes"></head>
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#317EFB"/>
+    <meta name="application-name" content="My Online Portfolio">
+    <meta name="apple-mobile-web-app-title" content="My Online Portfolio">
+    <meta name="theme-color" content="#FF9800">
+    <meta name="msapplication-navbutton-color" content="#FF9800">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="msapplication-starturl" content="/index.html">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="icon" sizes="128x128" href="app/assets/images/mypic.jpg">
+
+  </head>
   <body>
     <%= yield %>
   </body>

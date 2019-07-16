@@ -1,8 +1,11 @@
 .navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 3.5%;
+  min-width: 100%;
 }
-
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
 }

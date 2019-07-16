@@ -1,2 +1,221 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="banner">
+  <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+    <button class="navbar-toggler" style="border: 2px solid #eaeaea; type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" style="background-color: #21aa93"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link text-white" href="#">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Highlights</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Contact Me</a>
+        </li>
+        <li class="nav-item dropdown">
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="avatar-text-container">
+    <%= image_tag "mypic.jpg", alt: "avatar", class: "avatar-img" %>
+    <div class="text-container">
+      <h1>PATRICE GEDEON</h1>
+      <h3>Full-Stack Web Developer</h3>
+    </div>
+  </div>
+</div>
+<div class="container container-style">
+  <div class="title-container">
+    <h5 class="title-text">ABOUT ME</h5>
+    <div class="line"></div>
+  </div>
+    <p class="paragraph-text"><strong>B</strong>orn on a deeply empoverished island, my upbringing was different from many others. The environment and living conditions alone were enough to destroy any child's hopes, ambitions, and dreams. The lack of basic necessities, such as food and water, were not easily accessible for most throughout the island. Countrymen are forced to walk for miles, often with cheap sandles on their feet, in hopes of finding a source of running water to wash their ragged clothing. But to us who were born on this island, this was just another day in the neighborhood. The struggle produced determination and grit within its people.<br><br>
+    <strong>A</strong>s a child growing into adolesence, I observed my parents work our way into a lifestyle that was decent and comfortable for the family. They worked on week days without complaining and enjoyed their weekends with love, laughter, music and poetry. It wasn't until I went off to college that I realized, both of my parents were not merely working as they appeared to be, but they were fulfilling their passions and living life as they chose. Thats when it all made sense to me. It's no wonder why they enjoyed "work" so candidly. The lesson I've learned in that reflection was to always follow my dreams and pursue my passions in life... no matter the environment or the circumstances that I find myself in. By remaining true to these lessons engrained within me, I am now a Web Developer.</p>
+    <br>
+</div>
+<div class="container container-style">
+  <div class="title-container">
+    <h5 class="title-text">MY EDUCATION</h5>
+    <div class="line"></div>
+  </div>
+  <div class="img-text-container other-text">
+      <span>
+        <h5><strong><img alt="Le Wagon Logo" class="img"src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" />Le Wagon</strong></h5>
+      </span>
+      <div class="paragraph-border-left">
+        <ul>
+          <p>2019 - 2019</p>
+          <li>Web Development | Front-End & Back-End Programming</li>
+          <br>
+          <p>Attended Le Wagon Montreal (Batch #210)<br>
+          Completed the 9-week intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript, jQuery, SQL, git, GitHub, Heroku and Ruby on Rails. Designed, implemented and shipped to production a clone of AirBnB and a Rails prototype of "CLUB XP | See Whats Happening Live..." - www.clubxp.net
+          <br><br>
+          My GitHub profile can be found at: https://github.com/pgedeon84</p>
+        </ul>
+        <br>
+      </div>
+  </div>
+    <div class="title-container">
+      <div class="line-split"></div>
+    </div>
+  <div class="img-text-container paragraph-text">
+    <h5><strong><%= image_tag "logo-sae.jpeg", alt: "Sound and Audio Engineering logo", class: "img" %>SAE Institute</strong></h5>
+    <div class="paragraph-border-left">
+      <ul>
+        <p>2005 - 2005</p>
+        <li>Non-Degree | Audio Engineering</li>
+        <br>
+        <p>Attended SAE Institue in Manhattan, New York<br>
+        Completed a 3-month course on Audio Engineering and Music Production using Digital Audio software tools such as Pro Tools and Logic Pro and hardware tools such as the MPC 2000XL.</p>
+      </ul>
+    </div>
+  </div>
+  <div class="title-container">
+    <div class="line-split"></div>
+  </div>
+  <div class="img-text-container paragraph-text">
+    <h5><strong><%= image_tag "logo-qcc.jpg", alt: "Queensborough Community College Logo", class: "img" %>Queensborough Community College</strong></h5>
+    <div class="paragraph-border-left">
+      <ul>
+        <p>2003 - 2005</p>
+        <li>Undergraduate | Computer Information Systems</li>
+        <br>
+        <p>Attened Queensborough Community College in Queens, New York<br>
+        After completing 2 years of studies with a 3.33GPA, with each semester being placed on the Dean's List, one my passions led me to take a break from the classroom environment and into music.
+        </p>
+      </ul>
+    </div>
+  </div>
+    <br>
+</div>
+<div class="container container-style">
+  <div class="title-container">
+    <h5 class="title-text">MY SKILLS</h5>
+    <div class="line"></div>
+  </div>
+  <div class="img-text-container paragraph-text">
+      <h5><strong>Programming Languages</strong></h5>
+      <br>
+      <ul>
+        <br>
+        <li style="font-style: italic;"><%= image_tag "logo-html.jpg", alt: "html icon", class: "logo-img", style: "width: 80px" %>Hypertext Markup Language</li>
+        <br>
+        <p>Hypertext Markup Language is the standard markup language for creating web pages and web applications. With Cascading Style Sheets and JavaScript, it forms a triad of cornerstone technologies for the World Wide Web.</p>
+      </ul>
+  </div>
+  <div class="title-container">
+    <div class="line-split"></div>
+  </div>
+   <div class="img-text-container paragraph-text">
+      <ul>
+        <li style="font-style: italic;"><%= image_tag "logo-css.jpg", alt: "css icon", class: "logo-img", style: "width: 80px" %>Cascading Style Sheets</li>
+        <br>
+        <p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+      </ul>
+  </div>
+  <div class="title-container">
+    <div class="line-split"></div>
+  </div>
+   <div class="img-text-container paragraph-text">
+      <ul>
+        <li style="font-style: italic;"><%= image_tag "logo-js.jpg", alt: "js icon", class: "logo-img", style: "width: 80px" %>JavaScript</li>
+        <br>
+        <p>JavaScript, often abbreviated as JS, is a high-level, interpreted programming language that conforms to the ECMAScript specification. It is a programming language that is characterized as dynamic, weakly typed, prototype-based and multi-paradigm.</p>
+      </ul>
+  </div>
+  <div class="title-container">
+    <div class="line-split"></div>
+  </div>
+   <div class="img-text-container paragraph-text">
+      <ul>
+        <li style="font-style: italic;"><%= image_tag "logo-ruby.png", alt: "ruby icon", class: "logo-img", style: "width: 80px" %>Ruby</li>
+        <br>
+        <p>Ruby is a dynamic, interpreted, reflective, object-oriented, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan. According to the creator, Ruby was influenced by Perl, Smalltalk, Eiffel, Ada, and Lisp.</p>
+      </ul>
+  </div>
+  <div class="title-container">
+    <div class="line-split"></div>
+    <br>
+  </div>
+  <div class="img-text-container paragraph-text">
+      <h5><strong>Programming Frameworks</strong></h5>
+      <br>
+      <ul>
+        <br>
+        <li style="font-style: italic;"><%= image_tag "logo-bootstrap.png", alt: "bootstrap icon", class: "logo-img", style: "width: 80px" %>Bootstrap</li>
+        <br>
+        <p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation and other interface components.</p>
+      </ul>
+  </div>
+  <div class="title-container">
+    <div class="line-split"></div>
+  </div>
+   <div class="img-text-container paragraph-text">
+      <ul>
+        <li style="font-style: italic;"><%= image_tag "logo-rails.png", alt: "rails icon", class: "logo-img", style: "width: 80px" %>Ruby on Rails</li>
+        <br>
+        <p>Ruby on Rails, or Rails, is a server-side web application framework written in Ruby under the MIT License. Rails is a model–view–controller framework, providing default structures for a database, a web service, and web pages.</p>
+      </ul>
+  </div>
+  <div class="title-container">
+    <div class="line-split"></div>
+    <br>
+  </div>
+  <div class="img-text-container paragraph-text">
+      <h5><strong>Programming System Softwares & Platforms</strong></h5>
+      <br>
+      <ul>
+        <br>
+        <li style="font-style: italic;"><%= image_tag "logo-git.jpg", alt: "git icon", class: "logo-img", style: "width: 80px" %>Git System Software</li>
+        <br>
+        <p>Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, non-linear workflows.</p>
+      </ul>
+  </div>
+  <div class="title-container">
+    <div class="line-split"></div>
+  </div>
+   <div class="img-text-container paragraph-text">
+      <ul>
+        <li style="font-style: italic;"><%= image_tag "logo-github.png", alt: "github icon", class: "logo-img", style: "width: 80px" %>GitHub Hosting</li>
+        <br>
+        <p>GitHub is a web-based hosting service for version control using Git. It is mostly used for computer code. It offers all of the distributed version control and source code management functionality of Git as well as adding its own features.</p>
+      </ul>
+  </div>
+  <div class="title-container">
+    <div class="line-split"></div>
+  </div>
+   <div class="img-text-container paragraph-text">
+      <ul>
+        <li style="font-style: italic;"><%= image_tag "logo-heroku.png", alt: "heroku icon", class: "logo-img", style: "width: 80px" %>Heroku Platform</li>
+        <br>
+        <p>Heroku is a cloud platform as a service supporting several programming languages. Heroku, one of the first cloud platforms, has been in development since June 2007, when it supported only the Ruby programming language, but now supports Java, Node.js, Scala, Clojure, Python, PHP, and Go.</p>
+      </ul>
+  </div>
+</div>
+<div class="container container-style">
+  <div class="title-container">
+    <h5 class="title-text">PHOTOS & HIGHLIGHTS</h5>
+    <div class="line"></div>
+  </div>
+  <div class="pictures-container">
+    <%= image_tag "img-lewagon.jpg", alt: "school picture", class: "logo-img", style: "width: 480px" %>
+    <%= image_tag "img-lewagon2.jpg", alt: "school picture", class: "logo-img", style: "width: 480px" %>
+    <%= image_tag "img-lewagon3.jpg", alt: "school picture", class: "logo-img", style: "width: 480px" %>
+    <%= image_tag "img-lewagon4.jpg", alt: "school picture", class: "logo-img", style: "width: 480px" %>
+  </div>
+</div>
