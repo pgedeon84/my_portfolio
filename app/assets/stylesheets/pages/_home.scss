@@ -7,11 +7,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 20px;
+    max-width: 100vw;
 }
 
-.banner-img {
-  max-width: 100vw;
-}
 
 .text-container {
   display: flex;
@@ -43,10 +41,6 @@
   color: #eaeaea !important;
   font-family: 'Work Sans', sans-serif;
 }
-
-// .paragraph-border-left {
-//   border-left: 6px dotted #eaeaea;
-// }
 
 .paragraph-text {
   color: #6f6d6f;
